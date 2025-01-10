@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+   <!-- шапка сайта -->
+  <header>
+    <div class="logo">
+        <img src="img/logo.svg" alt="Логотип">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="game.html">Игра</a></li> 
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="privacy-policy.html">Политика приватности</a></li>
+            <li><a href="terms-conditions.html">Условия использования</a></li>
+        </ul>
+    </nav>
+</header>
+
+ <!-- основной контент страницы -->
+<main>
+
+
+  <!-- секция приветствие и призыв к действию -->
+  <section class="welcome" id="home-intro">
+    <div class="wrapper">
+        <h1>Добро пожаловать в Flexbox Froggy</h1>
+        <p>Изучите основы Flexbox с помощью увлекательной игры</p>
+        <a class="play-button" href="game.html">Бесплатно играть</a>
+    </div>
+</section>
+
+<!-- секция о нас -->
+<section class="our-game" id="about-us">
+  <div class="wrapper">
+      
+      <h2>О нас</h2>
+      <p class="text">Flexbox Froggy — это обучающая игра, которая помогает изучить CSS Flexbox в интерактивной форме. Решайте задания, помогая лягушатам, и становитесь мастером веб-верстки.</p>
+      <img src="img/frogges.png" alt="Графическое изображение рыбалки">
+    </div>
+</section>
+
+
+<!-- секция с преимуществами -->
+
+<section class="advantages" id="our-advantages"> 
+  <h2>Преимущества Flexbox Froggy</h2> 
+
+  <div class="advantages-list">
+
+    <div class="advantage-item"> 
+      <h3>Увлекательное обучение</h3> 
+      <p>Учитесь Flexbox, играя и помогая лягушатам добраться до лилий.</p> 
+    </div> 
+
+    <div class="advantage-item">
+       <h3>Развитие навыков</h3> 
+       <p>Практикуйте теорию на практике и совершенствуйте навыки адаптивной верстки.</p> 
+      </div> 
+
+      <div class="advantage-item">
+         <h3>Бесплатный доступ</h3> 
+         <p>Играйте и обучайтесь бесплатно в любое время.</p> 
+        </div> 
+
+      </div>
+      </section>
+
+
+   <!-- Модальное окно для проверки возраста -->
+   <div class="modal" id="ageModal">
+    <div class="modal__main">
+      <h2 class="modal__title">Вам уже исполнилось 18 лет?</h2>
+      <div class="modal__container">
+        <button id="yesBtn">Да</button>
+        <button id="noBtn">Нет</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Модальное окно для уведомления о куках -->
+  <div class="cookie-modal" id="cookieModal">
+    <div class="cookie-modal__content">
+      <p>Наш сайт использует куки-файлы. Мы используем их для улучшения вашего опыта. Вы можете настроить куки или принять их.</p>
+      <button id="cookieSettingsBtn">Настройки</button>
+      <button id="cookieAcceptBtn">Принимаю</button>
+      <button id="cookieDeclineBtn">Отклоняю</button>
+    </div>
+  </div>
+
+  </main>
+
+  <footer>
+    
+    <div class="logo">
+      <img src="img/logo.svg" alt="Логотип">
+  </div>
+  <nav>
+      <ul>
+          <li><a href="index.html">Главная страница</a></li>
+          <li><a href="game.html">Игра</a></li> 
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="privacy-policy.html">Политика приватности</a></li>
+          <li><a href="terms-conditions.html">Условия использования</a></li>
+      </ul>
+  </nav>
+
+  </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
